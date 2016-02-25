@@ -15,11 +15,11 @@
 
     <url>https://github.com/RedRoma/aroma-message-service</url>
     <description>
-        Part of the Banana Service Project.
+        Part of the Aroma Project.
         Simplicity is paramount.
 
         The Message Service is responsible for managing storage and queries
-        of Banana Messages.
+        of Aroma Messages.
     </description>
 
     <issueManagement>
