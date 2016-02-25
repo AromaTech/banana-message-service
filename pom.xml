@@ -3,17 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>tech.aroma.banana</groupId>
-        <artifactId>banana</artifactId>
-        <version>1.3</version>
+        <groupId>tech.aroma</groupId>
+        <artifactId>aroma</artifactId>
+        <version>1.4-SNAPSHOT</version>
     </parent>
 
-    <artifactId>banana-message-service</artifactId>
+    <artifactId>aroma-message-service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
 
-    <url>https://github.com/AromaTech/banana-message-service</url>
+    <url>https://github.com/AromaTech/aroma-message-service</url>
     <description>
         Part of the Banana Service Project.
         Simplicity is paramount.
@@ -24,13 +24,13 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/AromaTech/banana-message-service/issues</url>
+        <url>https://github.com/AromaTech/aroma-message-service/issues</url>
     </issueManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:AromaTech/banana-message-service.git</connection>
-        <developerConnection>scm:git:git@github.com:AromaTech/banana-message-service.git</developerConnection>
-        <url>git@github.com:AromaTech/banana-message-service.git</url>
+        <connection>scm:git:git@github.com:AromaTech/aroma-message-service.git</connection>
+        <developerConnection>scm:git:git@github.com:AromaTech/aroma-message-service.git</developerConnection>
+        <url>git@github.com:AromaTech/aroma-message-service.git</url>
     </scm>
 
     <inceptionYear>2015</inceptionYear>
@@ -106,8 +106,8 @@
         <!--=======================-->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>banana-thrift</artifactId>
-            <version>1.6</version>
+            <artifactId>aroma-thrift</artifactId>
+            <version>1.7-SNAPSHOT</version>
         </dependency>
 
 
@@ -150,7 +150,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>tech.aroma.banana.service.server.TcpServer</mainClass>
+                            <mainClass>tech.aroma.aroma.service.server.TcpServer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
