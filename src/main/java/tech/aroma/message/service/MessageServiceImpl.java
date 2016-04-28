@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Aroma Tech.
+ * Copyright 2016 RedRoma, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
- 
+
 package tech.aroma.message.service;
 
 
@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author SirWellington
  */
-public class MessageServiceImpl 
+public class MessageServiceImpl
 {
     private final static Logger LOG = LoggerFactory.getLogger(MessageServiceImpl.class);
 
